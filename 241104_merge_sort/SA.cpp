@@ -1,11 +1,12 @@
-#include "SA.hpp"
+
 
 #include <iostream>
+#include <vector>
 
-void kea::show_array(const int* Arr, const int arr_size) {
+void show_vec(std::vector <int> Vec, const int vec_size) {
     const char format = ' ';
-    for (int i = 1; i <= arr_size; i++) {
-        std::cout << Arr[i] << format;
+    for (int i = 1; i <= vec_size; i++) {
+        std::cout << Vec[i] << format;
     }
     std::cout << std::endl;
 }
