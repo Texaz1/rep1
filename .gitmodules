@@ -1,0 +1,3 @@
+[submodule "obuchaika"]
+	path = obuchaika
+	url = https://github.com/Texaz1/obuchaika.git
